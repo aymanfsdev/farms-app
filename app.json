@@ -19,27 +19,15 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mypackage.coolapp",
-      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF",
-        "package": "com.mypackage.coolapp",
-        "googleServicesFile": "./google-services.json"
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "config": {
-        "firebase": {
-          "appId": "xxxxxxxxxxxxx:web:xxxxxxxxxxxxxxxx",
-          "apiKey": "AIzaXXXXXXXX-xxxxxxxxxxxxxxxxxxx",
-          "projectId": "my-awesome-project-id",
-          "measurementId": "G-XXXXXXXXXXXX"
-        }
-      }
     }
   }
 }
